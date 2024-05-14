@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registo para fulbol</title>
+</head>
+<body>
+
+  <h2>Form para registarte :3</h2>
+
+  <form action="#" method="post">
+    <label for="nombre">Nombre completo:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="edad">Edad:</label><br>
+    <input type="number" id="edad" name="edad" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="categoria">Categoria? :</label><br>
+    <select id="categoria" name="categoria">
+      <option value="Sub-12">Sub-12</option>
+      <option value="Sub-15">Sub-15</option>
+      <option value="Sub-18">Sub-18</option>
+    </select><br><br>
+
+    <label>Donde jugas? (Una sola opcion :b):</label><br>
+    <input type="radio" id="delantero" name="posicion" value="Delantero">
+    <label for="delantero">Delantero</label><br>
+    <input type="radio" id="mediocampista" name="posicion" value="Mediocampista">
+    <label for="mediocampista">Mediocampista</label><br>
+    <input type="radio" id="defensa" name="posicion" value="Defensa">
+    <label for="defensa">Defensa</label><br>
+    <input type="radio" id="portero" name="posicion" value="Portero">
+    <label for="portero">Portero</label><br><br>
+
+    <input type="checkbox" id="terminos" name="terminos" required>
+    <label for="terminos">Aceptas los terminos y condiciones?.</label><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+</body>
+</html>
